@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js" defer></script>
+    <title>LGC</title>
+
+	<h1>ToDo Liste</h1>
+<div style = "text-align: center;">
+	<img src="images.png" style = "width:488px; height:103px;" >
+</div>
+</head>
+<body>
+	<div class ="body">
+
+
+<!-- alles was ganz oben steht--> 
+	
+
+	<h4>Guten Tag, <br> was musst du heute erledigen ??</h4>
+
+<div class="row">
+	<div class="col-12">
+		<div class = button-box>
+			<input class="inputfeld" id="userInput" type="text" placeholder="    	  Schreibe etwas" maxlength="35">
+				
+			<button id="enter" class="enter"><i class="Enter"></i> Hinzufügen</button>
+			<button id ="logoutBtn"class ="logoutBtn" id="logoutBtn" style="display:none;">Logout</button>
+
+		</div>
+	</div>
+</div>
+</div>
+	<p>Wenn du was erledigt hast <span class="durch-streichen">Streiche</span> es durch <br>
+	wenn du was ändern möchtest <span class="kreuzen">lösch</span> es </p>
+
+		<!-- Empty List -->
+<div class="Liste" id = "Listencontainer">
+	<div>
+		<ul class="Liste">
+	</ul>
+	</div>
+</div>
+</body>
+<footer>	
+<div class="footer-container">
+<div class="footer-block">
+
+	<p class="tommy-oben">Impressum</p>	
+	<p class="tommy">
+		<span class="tom">Sitz der Gesellschaft:</span><a href="https://www.google.com/maps/search/?api=1&query=Groß-Umstadt" target="_blank" class="buttonn">   Groß-Umstadt</a><br>
+		<span class="tom">Handelsregister:</span> Amtsgericht Darmstadt HRB 96359 <br>
+		<span class="tom">Geschäftsführer:</span> Aleksander Lukic <br>
+	</p>
+</div>
+<div class="footer-block">
+
+	<p class="tommy-oben"> Über mich</p>
+	<p class="tommy">
+		<span class="tom">Name:</span>Tommy Lamsbach <br>
+		<span class="tom">Alter:</span> 16 Jahre <br>
+		<span class="tom">Wohnort:</span> Groß-Umstadt/Kleestadt <br>
+		<span class="tom">Beruf:</span> Schüler auf der LGS Dieburg <br>
+		<span class="tom">Ziel:</span> Lenren von webdesign <br>
+	</p>
+</div>
+
+ <div class="footer-block">
+
+	<p class="tommy-oben">E-Mail</p>
+	<p class="tommy"><a href="mailto:info@lgc.software" class="buttons">info@lgc.software</a></p>
+</div>
+<div class="footer-block">
+	<p class="tommy-oben">Telefon</p>
+	<p class="tommy"><a href="tel:+49 6078 39570 0" class="buttons">+49 6078 39570 0</a></p>
+</div>
+<div class="footer-block">
+	<p class="tommy-oben">Adresse</p>
+	<p class="tommyy">Am Gewerbepark 39-41 <br>Groß-Umstadt <br> Deutschland</p>
+ </div>
+</div> 
+</footer>
+
+
+<!-- Anmelden(user, Passwort)--> 	
+<div id="nameModal" class="modal">
+ <div class="modal-content">
+        <h3>Melde dich an</h3>
+	<form id="nameForm" autocomplete="off">
+        <input type="text" id="username" placeholder="Username" autocomplete="off" required>
+    	<input type="password" id="password" placeholder="Password" autocomplete="off" required>
+<br>
+        <button type="submit" class="Login">Login</button>
+    </form>
+ </div>
+</div>
+
+</html>
