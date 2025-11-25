@@ -110,7 +110,6 @@ ul {
 .Liste {
 	list-style: none;
 	text-align: center;
-  overflow-y:scroll;
   padding-bottom: 60px;
   width: 500px;
   margin-right:auto;
